@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/snakeye1/public_html/gym
+    - /bin/cp * $DEPLOYPATH
